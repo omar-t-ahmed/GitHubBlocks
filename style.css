@@ -1,0 +1,49 @@
+img {
+    height: 200px;
+    width: 200px;
+    padding: 20px;
+    padding-right: 30px;
+}
+.container {
+    width: 1000px;
+    height: 1200px;
+    margin: 0 auto;
+    background-color: aliceblue;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#header {
+    width: 700px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.row {
+    display: flex;
+    align-items: center;
+}
+#toprow, #botrow, #midrow {
+    width: 700px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+#toprow {
+    background-color: olive;
+}
+#midrow {
+    background-color: lightsalmon;
+}
+#botrow {
+    background-color: lightsteelblue;
+}
+#from {
+    width: 700px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+}
